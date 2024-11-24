@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --green-color: #426b1f;
+  --white-color: white;
+  --black-color: black;
+  --border-color: #e6e6e6;
+  --card-color: #fafaf5;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+section {
+  padding: 80px 0;
+}
+.btn {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+img {
+  max-width: 100%;
+}
+header {
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  padding: 25px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo {
+  font-family: "Newsreader", serif;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -1%;
+  color: var(--green-color);
+}
+header .container ul {
+  display: flex;
+}
+header .container ul li a {
+  padding: 0 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black-color);
+}
+header .container ul li .basket-btn {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+@media (max-width: 991px) {
+  nav {
+    display: none;
+  }
+}
