@@ -1,0 +1,67 @@
+.btn {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+/* img {
+  max-width: 100%;
+} */
+.cards {
+  padding-top: 50px;
+}
+.tomato-card,
+.ginger-card,
+.onion-card {
+  width: 800px;
+  display: flex;
+  border: 2px solid var(--border-color);
+  border-radius: 24px;
+  background-color: var(--card-color);
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.content .text h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+.content .text span {
+  display: block;
+  padding-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: var(--green-color);
+}
+.content .text p {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 2px solid var(--border-color);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: var(--white-color);
+}
+.content .price {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+img {
+  width: 160px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+.ginger-card {
+  margin: 50px 0;
+}
