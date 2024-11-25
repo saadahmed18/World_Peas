@@ -10,9 +10,7 @@
 .cards {
   padding-top: 50px;
 }
-.tomato-card,
-.ginger-card,
-.onion-card {
+.tomato-card {
   width: 800px;
   display: flex;
   border: 2px solid var(--border-color);
@@ -56,7 +54,6 @@
   font-weight: 600;
   line-height: 26px;
 }
-
 img {
   width: 160px;
   border-top-left-radius: 24px;
