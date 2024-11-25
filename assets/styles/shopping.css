@@ -46,7 +46,8 @@ section {
   padding-top: 50px;
 }
 .tomato-card,
-.ginger-card {
+.ginger-card,
+.onion-card {
   width: 800px;
   display: flex;
   border: 2px solid var(--border-color);
