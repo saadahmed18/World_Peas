@@ -45,12 +45,16 @@ section {
 .cards {
   padding-top: 50px;
 }
-.tomato-card {
+.tomato-card,
+.ginger-card {
   width: 800px;
   display: flex;
   border: 2px solid var(--border-color);
   border-radius: 24px;
   background-color: var(--card-color);
+}
+.ginger-card {
+  margin: 50px 0;
 }
 .content {
   width: 100%;
