@@ -41,7 +41,7 @@ header {
   background-color: whitesmoke;
   position: sticky;
   top: 0;
-  padding: 25px;
+  padding: 25px 0;
 }
 header .container {
   display: flex;
