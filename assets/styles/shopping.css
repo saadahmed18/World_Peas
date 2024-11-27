@@ -31,6 +31,7 @@ section {
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--border-color);
+  padding-bottom: 20px;
 }
 .title h1 {
   font-family: "Newsreader", serif;
