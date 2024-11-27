@@ -50,6 +50,7 @@ section {
 .all-cards {
   display: flex;
   justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 .cards-vegetables {
   padding-top: 50px;
@@ -131,24 +132,6 @@ img {
   font-size: 16px;
   font-weight: 600;
 }
-/* ipad */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .all-cards {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .cards-vegetables {
-    width: 100%;
-  }
-  .tomato-card,
-  .ginger-card,
-  .onion-card {
-    width: 100%;
-  }
-  .order-summary {
-    width: 100%;
-  }
-}
 /* mobile */
 @media (max-width: 450px) {
   .all-cards {
@@ -167,5 +150,41 @@ img {
   .order-summary {
     width: 100%;
     margin-left: 0;
+  }
+}
+/* ipad */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .all-cards {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .cards-vegetables {
+    width: 100%;
+  }
+  .tomato-card,
+  .ginger-card,
+  .onion-card {
+    width: 100%;
+  }
+  .order-summary {
+    width: 100%;
+  }
+}
+/* laptop */
+@media (min-width: 1025px) and (max-width: 1165px) {
+  .all-cards {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .cards-vegetables {
+    width: 100%;
+  }
+  .tomato-card,
+  .ginger-card,
+  .onion-card {
+    width: 100%;
+  }
+  .order-summary {
+    width: 100%;
   }
 }
